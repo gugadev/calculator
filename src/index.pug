@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Calculator
+    meta(name="theme-color", content="#333333")
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+    link(rel="stylesheet", href="vendor.css")
+    link(rel='stylesheet', href='index.css')
+    script(src='index.js')
+  body
+    form.calculator(id="calcForm")
+      header.header
+        section.screen
+          textarea(name='input', cols='30', rows='4')
+          input(type='text', name='result')
+      main.main
+        section.buttons
+          button(type="button", name="backspace")
+            i.material-icons backspace
+          button(type="button", name="clear") CE
+          button(type="button", name="divide") /
+          button(type="button", name="multiply") &times;
+          button(type="button") 7
+          button(type="button") 8
+          button(type="button") 9
+          button(type="button", name="substract") -
+          button(type="button") 4
+          button(type="button") 5
+          button(type="button") 6
+          button(type="button", name="add") +
+          button(type="button") 1
+          button(type="button") 2
+          button(type="button") 3
+          button(name="calc") =
+          button(type="button") 0
+          button(type="button", name="point") .

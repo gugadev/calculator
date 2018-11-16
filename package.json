@@ -1,0 +1,45 @@
+{
+  "name": "code-splitting",
+  "version": "1.0.0",
+  "description": "Calculator example using code-splitting",
+  "main": "build/index.js",
+  "scripts": {
+    "build:dev": "webpack --mode=development --watch",
+    "build:pug": "gulp",
+    "devserver": "webpack-dev-server --mode=development --hot",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugadev/calculator-code-splitting.git"
+  },
+  "keywords": [
+    "code-splitting",
+    "calculator",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Gustavo Garzaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gugadev/calculator-code-splitting/issues"
+  },
+  "homepage": "https://github.com/gugadev/calculator-code-splitting#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}

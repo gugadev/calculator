@@ -1,0 +1,21 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  textarea, input {
+    background-color: transparent;
+    border: none;
+    color: #999;
+    cursor: default;
+    outline: none;
+    width: 100%;
+  }
+  textarea {
+    border: 1px solid rgba(255,255,255,.1);
+    flex: 1;
+  }
+  input {
+    flex: 0 0 50px;
+  }
+}
