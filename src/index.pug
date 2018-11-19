@@ -9,13 +9,13 @@ html
     link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
     link(rel="stylesheet", href="vendor.css")
     link(rel='stylesheet', href='index.css')
-    script(src='index.js')
+    script(src='index.bundle.js')
   body
     form.calculator(id="calcForm")
       header.header
         section.screen
-          textarea(name='input', cols='30', rows='4')
-          input(type='text', name='result')
+          textarea(name='input', cols='30', rows='4', disabled)
+          input(type='text', name='result', disabled)
       main.main
         section.buttons
           button(type="button", name="backspace")

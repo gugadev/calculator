@@ -14,8 +14,15 @@
   textarea {
     border: 1px solid rgba(255,255,255,.1);
     flex: 1;
+    font-size: 28px;
+    padding: 20px;
+    text-align: right;
+    resize: none;
   }
   input {
     flex: 0 0 50px;
+    font-size: 22px;
+    padding: 0 20px;
+    text-align: right;
   }
 }
